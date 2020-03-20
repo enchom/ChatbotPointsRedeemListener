@@ -1,0 +1,17 @@
+{
+    "OAuth": {
+        "group": "Core", 
+        "label": "Twitch OAuth Token", 
+        "tooltip": "Refer to instructions on how to obtain one.", 
+        "type": "textbox", 
+        "value": ""
+    }, 
+    "UserId": {
+        "group": "Core", 
+        "label": "Twitch User ID", 
+        "tooltip": "Your ID (not username) in Twitch. Refer to instructions on how to find it.", 
+        "type": "textbox", 
+        "value": ""
+    }, 
+    "output_file": "Settings/settings"
+}
