@@ -145,7 +145,7 @@ class RedeemHandler(object):
         reward name - event['data']['redemption']['reward']['title']
         reward cost - event['data']['redemption']['reward']['cost']
         """
-        if event['type'] == 'reward-redeemed':
+        if event['type'] == 'MESSAGE':
             Parent.SendStreamMessage('Detected reward redeemed')
 #---------------------------
 #   [Required] Initialize Data (Only called on load)
